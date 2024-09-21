@@ -25,7 +25,7 @@
 用共现矩阵也不行，太稀疏了。
 
 最后！！！先把英文文本分开，分为一个簇，然后对中文文本清晰，用word2vec，k-means(簇47).效果还行
-
+\\
 单独用resource_name，效果不行
 
 ![image](https://github.com/user-attachments/assets/0e273c37-ee18-4592-a058-0fbb770977b9)

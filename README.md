@@ -23,3 +23,15 @@
 用双塔模型训练，一边是用户subject,一边是resource_name，但好像不收敛，用二元分类。
 
 用共现矩阵也不行，太稀疏了。
+
+最后！！！先把英文文本分开，分为一个簇，然后对中文文本清晰，用word2vec，k-means(簇47).效果还行
+
+单独用resource_name，效果不行
+
+![image](https://github.com/user-attachments/assets/0e273c37-ee18-4592-a058-0fbb770977b9)
+
+resource_name和subject搭配一起用，还可以。但是！！现在的问题是，为什么越训越掉点。
+![image](https://github.com/user-attachments/assets/5ad3305f-a00c-4125-8d52-fb57b62a9b09)
+
+
+

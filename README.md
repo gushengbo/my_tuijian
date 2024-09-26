@@ -33,5 +33,12 @@
 resource_name和subject搭配一起用，还可以。但是！！现在的问题是，为什么越训越掉点。
 ![image](https://github.com/user-attachments/assets/5ad3305f-a00c-4125-8d52-fb57b62a9b09)
 
+只用last_score, resource_name,subject。分数达到0.24
+基于用户点击序列的tags和候选物品的tags。计算相似度。（如果加上长线相似度，疯狂掉点，0.18）
+只用last_score, 跟tags相似度，分数0.254.
+但是tags相似度跟resource_name,subject，又会掉点0.22
+
+
+
 
 

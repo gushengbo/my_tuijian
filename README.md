@@ -38,7 +38,7 @@ resource_name和subject搭配一起用，还可以。但是！！现在的问题
 只用last_score, 跟tags相似度，分数0.254.
 但是tags相似度跟resource_name,subject，又会掉点0.22
 
-
+加入物品popularity特征也不行。
 
 
 

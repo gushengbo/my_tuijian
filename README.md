@@ -16,7 +16,7 @@
 
 
 
-如何处理文本类的resource_name(43223),resource_tags(3007), subject(50):
+2. 如何处理文本类的resource_name(43223),resource_tags(3007), subject(50):
 
 用word2vec 然后用k-means或者DBSCAN聚类都不行，太多噪声点了。大多都在一个簇里面。
 
@@ -33,7 +33,7 @@
 resource_name和subject搭配一起用，还可以。但是！！现在的问题是，为什么越训越掉点。
 ![image](https://github.com/user-attachments/assets/5ad3305f-a00c-4125-8d52-fb57b62a9b09)
 
-只用last_score, resource_name,subject（+教师职称）。分数达到0.254。 再加上资源是否是教师提升资源的判断0.258 (直接换成tags_id，可以到0.26)。
+3. 只用last_score, resource_name,subject（+教师职称）。分数达到0.254。 再加上资源是否是教师提升资源的判断0.258 (直接换成tags_id，可以到0.26)。
 
 基于用户点击序列的tags和候选物品的tags。计算相似度。（如果加上长线相似度，疯狂掉点，0.18）
 
